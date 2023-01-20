@@ -50,6 +50,8 @@ class SearchEngine {
         int port = Integer.parseInt(args[0]);
 
         Server.start(port, new Handler());
+
+        System.out.println("hello");
     }
 
 }
